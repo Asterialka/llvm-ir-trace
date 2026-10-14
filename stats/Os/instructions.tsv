@@ -1,0 +1,348 @@
+length	count	share_percent	pattern
+1	2075318	20.96748658	getelementptr
+1	1837152	18.56123250	add
+1	1801814	18.20420334	load
+1	1755734	17.73864492	zext
+1	869644	8.78624331	icmp
+1	640920	6.47538425	br
+1	576086	5.82034921	and
+1	248832	2.51401550	store
+1	55296	0.55867011	select
+1	12288	0.12414891	shl
+1	12288	0.12414891	xor
+1	3073	0.03104733	call
+1	3072	0.03103723	mul
+1	3072	0.03103723	urem
+1	3072	0.03103723	lshr
+1	130	0.00131342	ret
+2	1801814	18.20420518	getelementptr; load
+2	1575936	15.92209978	load; zext
+2	1376256	13.90467973	zext; add
+2	1179648	11.91829691	add; getelementptr
+2	457824	4.62551741	icmp; br
+2	428726	4.33153259	br; getelementptr
+2	393216	3.97276564	add; and
+2	261216	2.63913459	add; icmp
+2	248832	2.51401576	getelementptr; store
+2	225878	2.28210540	load; icmp
+2	199776	2.01838996	br; add
+2	199680	2.01742005	zext; getelementptr
+2	196608	1.98638282	and; add
+2	196608	1.98638282	and; getelementptr
+2	196608	1.98638282	store; icmp
+2	179798	1.81654693	icmp; and
+2	176726	1.78550969	and; zext
+2	176726	1.78550969	zext; br
+2	176726	1.78550969	icmp; icmp
+2	55296	0.55867017	select; getelementptr
+2	52224	0.52763294	store; add
+2	49152	0.49659570	icmp; select
+2	9216	0.09311169	getelementptr; getelementptr
+2	6240	0.06304438	getelementptr; br
+2	6144	0.06207446	br; shl
+2	6144	0.06207446	br; icmp
+2	6144	0.06207446	shl; xor
+2	6144	0.06207446	shl; getelementptr
+2	6144	0.06207446	and; select
+2	3072	0.03103723	add; add
+2	3072	0.03103723	mul; add
+2	3072	0.03103723	urem; icmp
+2	3072	0.03103723	lshr; xor
+2	3072	0.03103723	xor; mul
+2	3072	0.03103723	xor; urem
+2	3072	0.03103723	xor; shl
+2	3072	0.03103723	xor; lshr
+2	3072	0.03103723	getelementptr; shl
+2	3072	0.03103723	getelementptr; and
+2	3072	0.03103723	getelementptr; call
+2	3072	0.03103723	zext; xor
+2	3072	0.03103723	icmp; add
+2	3072	0.03103723	icmp; zext
+2	3072	0.03103723	call; add
+2	130	0.00131342	br; ret
+2	129	0.00130332	ret; br
+2	1	0.00001010	call; br
+3	1575936	15.92210139	getelementptr; load; zext
+3	1376256	13.90468114	load; zext; add
+3	1179648	11.91829812	add; getelementptr; load
+3	1179648	11.91829812	zext; add; getelementptr
+3	258144	2.60809763	add; icmp; br
+3	248814	2.51383415	icmp; br; getelementptr
+3	228950	2.31314286	br; getelementptr; load
+3	225878	2.28210563	getelementptr; load; icmp
+3	196704	1.98735293	icmp; br; add
+3	196608	1.98638302	br; add; and
+3	196608	1.98638302	br; getelementptr; store
+3	196608	1.98638302	add; and; add
+3	196608	1.98638302	add; and; getelementptr
+3	196608	1.98638302	and; add; and
+3	196608	1.98638302	and; getelementptr; load
+3	196608	1.98638302	load; zext; getelementptr
+3	196608	1.98638302	store; icmp; br
+3	196608	1.98638302	getelementptr; store; icmp
+3	196608	1.98638302	zext; add; icmp
+3	196608	1.98638302	zext; getelementptr; load
+3	176726	1.78550987	and; zext; br
+3	176726	1.78550987	load; icmp; icmp
+3	176726	1.78550987	zext; br; getelementptr
+3	176726	1.78550987	icmp; and; zext
+3	176726	1.78550987	icmp; icmp; and
+3	52224	0.52763299	store; add; icmp
+3	52224	0.52763299	getelementptr; store; add
+3	49152	0.49659575	load; icmp; select
+3	49152	0.49659575	icmp; select; getelementptr
+3	49152	0.49659575	select; getelementptr; store
+3	6144	0.06207447	and; select; getelementptr
+3	6144	0.06207447	select; getelementptr; getelementptr
+3	6096	0.06158951	icmp; br; shl
+3	6080	0.06142786	icmp; br; icmp
+3	3168	0.03200715	br; add; icmp
+3	3120	0.03152219	getelementptr; br; getelementptr
+3	3072	0.03103723	br; shl; xor
+3	3072	0.03103723	br; shl; getelementptr
+3	3072	0.03103723	br; getelementptr; shl
+3	3072	0.03103723	br; icmp; br
+3	3072	0.03103723	br; icmp; add
+3	3072	0.03103723	add; add; icmp
+3	3072	0.03103723	add; icmp; and
+3	3072	0.03103723	mul; add; icmp
+3	3072	0.03103723	urem; icmp; zext
+3	3072	0.03103723	shl; xor; urem
+3	3072	0.03103723	shl; xor; lshr
+3	3072	0.03103723	shl; getelementptr; br
+3	3072	0.03103723	shl; getelementptr; getelementptr
+3	3072	0.03103723	lshr; xor; shl
+3	3072	0.03103723	xor; mul; add
+3	3072	0.03103723	xor; urem; icmp
+3	3072	0.03103723	xor; shl; xor
+3	3072	0.03103723	xor; lshr; xor
+3	3072	0.03103723	load; zext; xor
+3	3072	0.03103723	getelementptr; br; add
+3	3072	0.03103723	getelementptr; shl; getelementptr
+3	3072	0.03103723	getelementptr; and; select
+3	3072	0.03103723	getelementptr; getelementptr; br
+3	3072	0.03103723	getelementptr; getelementptr; and
+3	3072	0.03103723	getelementptr; getelementptr; call
+3	3072	0.03103723	getelementptr; call; add
+3	3072	0.03103723	zext; xor; mul
+3	3072	0.03103723	zext; getelementptr; store
+3	3072	0.03103723	icmp; add; add
+3	3072	0.03103723	icmp; and; select
+3	3072	0.03103723	icmp; zext; getelementptr
+3	3072	0.03103723	call; add; icmp
+3	130	0.00131342	icmp; br; ret
+3	129	0.00130332	br; ret; br
+3	96	0.00096991	br; getelementptr; br
+3	65	0.00065671	ret; br; getelementptr
+3	64	0.00064661	ret; br; icmp
+3	48	0.00048496	getelementptr; br; shl
+3	1	0.00001010	call; br; getelementptr
+4	1376256	13.90468254	getelementptr; load; zext; add
+4	1179648	11.91829932	add; getelementptr; load; zext
+4	1179648	11.91829932	load; zext; add; getelementptr
+4	1179648	11.91829932	zext; add; getelementptr; load
+4	248814	2.51383440	add; icmp; br; getelementptr
+4	225878	2.28210586	br; getelementptr; load; icmp
+4	225830	2.28162090	icmp; br; getelementptr; load
+4	196608	1.98638322	br; add; and; add
+4	196608	1.98638322	br; getelementptr; store; icmp
+4	196608	1.98638322	add; and; add; and
+4	196608	1.98638322	add; and; getelementptr; load
+4	196608	1.98638322	and; add; and; getelementptr
+4	196608	1.98638322	and; getelementptr; load; zext
+4	196608	1.98638322	load; zext; add; icmp
+4	196608	1.98638322	load; zext; getelementptr; load
+4	196608	1.98638322	getelementptr; load; zext; getelementptr
+4	196608	1.98638322	getelementptr; store; icmp; br
+4	196608	1.98638322	zext; add; icmp; br
+4	196608	1.98638322	zext; getelementptr; load; zext
+4	193536	1.95534598	store; icmp; br; add
+4	193536	1.95534598	icmp; br; add; and
+4	176726	1.78551006	and; zext; br; getelementptr
+4	176726	1.78551006	load; icmp; icmp; and
+4	176726	1.78551006	getelementptr; load; icmp; icmp
+4	176726	1.78551006	zext; br; getelementptr; store
+4	176726	1.78551006	icmp; and; zext; br
+4	176726	1.78551006	icmp; icmp; and; zext
+4	52224	0.52763304	store; add; icmp; br
+4	52224	0.52763304	getelementptr; store; add; icmp
+4	49152	0.49659581	load; icmp; select; getelementptr
+4	49152	0.49659581	getelementptr; load; icmp; select
+4	49152	0.49659581	icmp; select; getelementptr; store
+4	49152	0.49659581	select; getelementptr; store; add
+4	19882	0.20087316	icmp; br; getelementptr; store
+4	6144	0.06207448	and; select; getelementptr; getelementptr
+4	6032	0.06094291	add; icmp; br; shl
+4	3168	0.03200715	br; add; icmp; br
+4	3168	0.03200715	add; icmp; br; add
+4	3168	0.03200715	icmp; br; add; icmp
+4	3120	0.03152219	getelementptr; br; getelementptr; load
+4	3072	0.03103724	br; shl; xor; lshr
+4	3072	0.03103724	br; shl; getelementptr; getelementptr
+4	3072	0.03103724	br; getelementptr; shl; getelementptr
+4	3072	0.03103724	br; getelementptr; load; zext
+4	3072	0.03103724	br; icmp; add; add
+4	3072	0.03103724	add; add; icmp; and
+4	3072	0.03103724	add; icmp; and; select
+4	3072	0.03103724	mul; add; icmp; br
+4	3072	0.03103724	urem; icmp; zext; getelementptr
+4	3072	0.03103724	shl; xor; urem; icmp
+4	3072	0.03103724	shl; xor; lshr; xor
+4	3072	0.03103724	shl; getelementptr; br; getelementptr
+4	3072	0.03103724	shl; getelementptr; getelementptr; call
+4	3072	0.03103724	lshr; xor; shl; xor
+4	3072	0.03103724	xor; mul; add; icmp
+4	3072	0.03103724	xor; urem; icmp; zext
+4	3072	0.03103724	xor; shl; xor; urem
+4	3072	0.03103724	xor; lshr; xor; shl
+4	3072	0.03103724	load; zext; xor; mul
+4	3072	0.03103724	store; icmp; br; icmp
+4	3072	0.03103724	getelementptr; br; add; and
+4	3072	0.03103724	getelementptr; shl; getelementptr; br
+4	3072	0.03103724	getelementptr; and; select; getelementptr
+4	3072	0.03103724	getelementptr; load; zext; xor
+4	3072	0.03103724	getelementptr; getelementptr; br; add
+4	3072	0.03103724	getelementptr; getelementptr; and; select
+4	3072	0.03103724	getelementptr; getelementptr; call; add
+4	3072	0.03103724	getelementptr; call; add; icmp
+4	3072	0.03103724	zext; xor; mul; add
+4	3072	0.03103724	zext; getelementptr; store; add
+4	3072	0.03103724	icmp; br; shl; getelementptr
+4	3072	0.03103724	icmp; br; icmp; br
+4	3072	0.03103724	icmp; add; add; icmp
+4	3072	0.03103724	icmp; and; select; getelementptr
+4	3072	0.03103724	icmp; zext; getelementptr; store
+4	3072	0.03103724	call; add; icmp; br
+4	3072	0.03103724	select; getelementptr; getelementptr; br
+4	3072	0.03103724	select; getelementptr; getelementptr; and
+4	3024	0.03055228	icmp; br; shl; xor
+4	3008	0.03039063	br; icmp; br; icmp
+4	3008	0.03039063	icmp; br; getelementptr; shl
+4	3008	0.03039063	icmp; br; icmp; add
+4	130	0.00131342	add; icmp; br; ret
+4	129	0.00130332	icmp; br; ret; br
+4	94	0.00094971	icmp; br; getelementptr; br
+4	65	0.00065671	br; ret; br; getelementptr
+4	64	0.00064661	ret; br; getelementptr; shl
+4	64	0.00064661	ret; br; icmp; add
+4	64	0.00064661	br; ret; br; icmp
+4	64	0.00064661	br; icmp; br; shl
+4	48	0.00048496	br; getelementptr; br; shl
+4	48	0.00048496	br; getelementptr; br; getelementptr
+4	48	0.00048496	getelementptr; br; shl; xor
+4	1	0.00001010	ret; br; getelementptr; br
+4	1	0.00001010	call; br; getelementptr; br
+5	1179648	11.91830053	add; getelementptr; load; zext; add
+5	1179648	11.91830053	load; zext; add; getelementptr; load
+5	1179648	11.91830053	getelementptr; load; zext; add; getelementptr
+5	1179648	11.91830053	zext; add; getelementptr; load; zext
+5	225830	2.28162113	add; icmp; br; getelementptr; load
+5	222806	2.25106885	icmp; br; getelementptr; load; icmp
+5	196608	1.98638342	br; add; and; add; and
+5	196608	1.98638342	br; getelementptr; store; icmp; br
+5	196608	1.98638342	add; and; add; and; getelementptr
+5	196608	1.98638342	add; and; getelementptr; load; zext
+5	196608	1.98638342	and; add; and; getelementptr; load
+5	196608	1.98638342	and; getelementptr; load; zext; getelementptr
+5	196608	1.98638342	load; zext; add; icmp; br
+5	196608	1.98638342	load; zext; getelementptr; load; zext
+5	196608	1.98638342	getelementptr; load; zext; add; icmp
+5	196608	1.98638342	getelementptr; load; zext; getelementptr; load
+5	196608	1.98638342	zext; add; icmp; br; getelementptr
+5	196608	1.98638342	zext; getelementptr; load; zext; add
+5	193536	1.95534618	store; icmp; br; add; and
+5	193536	1.95534618	getelementptr; store; icmp; br; add
+5	193536	1.95534618	icmp; br; add; and; add
+5	176726	1.78551024	br; getelementptr; load; icmp; icmp
+5	176726	1.78551024	and; zext; br; getelementptr; store
+5	176726	1.78551024	load; icmp; icmp; and; zext
+5	176726	1.78551024	getelementptr; load; icmp; icmp; and
+5	176726	1.78551024	zext; br; getelementptr; store; icmp
+5	176726	1.78551024	icmp; and; zext; br; getelementptr
+5	176726	1.78551024	icmp; icmp; and; zext; br
+5	52224	0.52763310	getelementptr; store; add; icmp; br
+5	49152	0.49659586	br; getelementptr; load; icmp; select
+5	49152	0.49659586	load; icmp; select; getelementptr; store
+5	49152	0.49659586	getelementptr; load; icmp; select; getelementptr
+5	49152	0.49659586	icmp; select; getelementptr; store; add
+5	49152	0.49659586	select; getelementptr; store; add; icmp
+5	46080	0.46555861	store; add; icmp; br; getelementptr
+5	19882	0.20087319	add; icmp; br; getelementptr; store
+5	19882	0.20087319	icmp; br; getelementptr; store; icmp
+5	3168	0.03200715	add; icmp; br; add; icmp
+5	3168	0.03200715	icmp; br; add; icmp; br
+5	3120	0.03152220	store; add; icmp; br; add
+5	3102	0.03134034	br; add; icmp; br; getelementptr
+5	3072	0.03103724	br; shl; xor; lshr; xor
+5	3072	0.03103724	br; shl; getelementptr; getelementptr; call
+5	3072	0.03103724	br; getelementptr; shl; getelementptr; br
+5	3072	0.03103724	br; getelementptr; load; zext; xor
+5	3072	0.03103724	br; icmp; add; add; icmp
+5	3072	0.03103724	add; add; icmp; and; select
+5	3072	0.03103724	add; icmp; and; select; getelementptr
+5	3072	0.03103724	urem; icmp; zext; getelementptr; store
+5	3072	0.03103724	shl; xor; urem; icmp; zext
+5	3072	0.03103724	shl; xor; lshr; xor; shl
+5	3072	0.03103724	shl; getelementptr; br; getelementptr; load
+5	3072	0.03103724	shl; getelementptr; getelementptr; call; add
+5	3072	0.03103724	lshr; xor; shl; xor; urem
+5	3072	0.03103724	and; select; getelementptr; getelementptr; br
+5	3072	0.03103724	and; select; getelementptr; getelementptr; and
+5	3072	0.03103724	xor; mul; add; icmp; br
+5	3072	0.03103724	xor; urem; icmp; zext; getelementptr
+5	3072	0.03103724	xor; shl; xor; urem; icmp
+5	3072	0.03103724	xor; lshr; xor; shl; xor
+5	3072	0.03103724	load; zext; xor; mul; add
+5	3072	0.03103724	store; icmp; br; icmp; br
+5	3072	0.03103724	getelementptr; br; add; and; add
+5	3072	0.03103724	getelementptr; br; getelementptr; load; icmp
+5	3072	0.03103724	getelementptr; shl; getelementptr; br; getelementptr
+5	3072	0.03103724	getelementptr; and; select; getelementptr; getelementptr
+5	3072	0.03103724	getelementptr; load; zext; xor; mul
+5	3072	0.03103724	getelementptr; store; icmp; br; icmp
+5	3072	0.03103724	getelementptr; getelementptr; br; add; and
+5	3072	0.03103724	getelementptr; getelementptr; and; select; getelementptr
+5	3072	0.03103724	getelementptr; getelementptr; call; add; icmp
+5	3072	0.03103724	getelementptr; call; add; icmp; br
+5	3072	0.03103724	zext; xor; mul; add; icmp
+5	3072	0.03103724	zext; getelementptr; store; add; icmp
+5	3072	0.03103724	icmp; br; shl; getelementptr; getelementptr
+5	3072	0.03103724	icmp; add; add; icmp; and
+5	3072	0.03103724	icmp; and; select; getelementptr; getelementptr
+5	3072	0.03103724	icmp; zext; getelementptr; store; add
+5	3072	0.03103724	select; getelementptr; getelementptr; br; add
+5	3072	0.03103724	select; getelementptr; getelementptr; and; select
+5	3024	0.03055228	add; icmp; br; shl; xor
+5	3024	0.03055228	mul; add; icmp; br; getelementptr
+5	3024	0.03055228	store; add; icmp; br; shl
+5	3024	0.03055228	icmp; br; shl; xor; lshr
+5	3024	0.03055228	icmp; br; getelementptr; load; zext
+5	3008	0.03039063	br; icmp; br; icmp; add
+5	3008	0.03039063	add; icmp; br; shl; getelementptr
+5	3008	0.03039063	add; icmp; br; getelementptr; shl
+5	3008	0.03039063	icmp; br; getelementptr; shl; getelementptr
+5	3008	0.03039063	icmp; br; icmp; br; icmp
+5	3008	0.03039063	icmp; br; icmp; add; add
+5	3008	0.03039063	call; add; icmp; br; shl
+5	129	0.00130332	add; icmp; br; ret; br
+5	94	0.00094971	add; icmp; br; getelementptr; br
+5	66	0.00066682	br; add; icmp; br; ret
+5	65	0.00065671	icmp; br; ret; br; getelementptr
+5	64	0.00064661	ret; br; getelementptr; shl; getelementptr
+5	64	0.00064661	ret; br; icmp; add; add
+5	64	0.00064661	br; ret; br; getelementptr; shl
+5	64	0.00064661	br; ret; br; icmp; add
+5	64	0.00064661	br; icmp; br; shl; getelementptr
+5	64	0.00064661	icmp; br; ret; br; icmp
+5	64	0.00064661	icmp; br; icmp; br; shl
+5	64	0.00064661	call; add; icmp; br; ret
+5	48	0.00048496	br; getelementptr; br; shl; xor
+5	48	0.00048496	br; getelementptr; br; getelementptr; load
+5	48	0.00048496	mul; add; icmp; br; add
+5	48	0.00048496	getelementptr; br; shl; xor; lshr
+5	48	0.00048496	getelementptr; br; getelementptr; load; zext
+5	47	0.00047485	icmp; br; getelementptr; br; shl
+5	47	0.00047485	icmp; br; getelementptr; br; getelementptr
+5	1	0.00001010	ret; br; getelementptr; br; getelementptr
+5	1	0.00001010	br; ret; br; getelementptr; br
+5	1	0.00001010	call; br; getelementptr; br; shl
