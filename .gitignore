@@ -1,0 +1,15 @@
+/build/
+/.tools/
+/trace.bin
+
+/tests/
+
+*.o
+*.so
+*.a
+*.bc
+/compile_commands.json
+
+*.swp
+*.swo
+*~

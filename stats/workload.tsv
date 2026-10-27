@@ -1,0 +1,6 @@
+frames	64
+grid	384x192
+canvas	1536x768
+ants	32
+steps_per_frame	128
+colours	6

@@ -12,6 +12,12 @@ typedef struct {
     uint64_t uses;
 } PassStats;
 
+#ifdef __cplusplus
+extern "C" {
+#endif
 int instrument_module(LLVMModuleRef module, FILE *catalog, PassStats *stats);
+#ifdef __cplusplus
+}
+#endif
 
 #endif
